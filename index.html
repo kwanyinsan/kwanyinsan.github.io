@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal engineering portfolio for Yin San Gary Kwan.">
+  <title>YIN SAN GARY KWAN | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="photo-frame" aria-label="Profile photo area">
+        <img id="profilePhoto" class="profile-photo" alt="">
+        <div id="profilePlaceholder" class="profile-placeholder" hidden></div>
+      </div>
+      <h1 id="profileName">YIN SAN GARY KWAN</h1>
+      <nav id="contactLinks" class="contact-links" aria-label="Contact links"></nav>
+      <div class="screen-switcher" role="tablist" aria-label="Portfolio screens">
+        <button id="profileTab" class="screen-button is-active" type="button" role="tab" aria-selected="true" aria-controls="profileScreen" data-screen-target="profile">
+          Profile
+        </button>
+        <button id="projectsTab" class="screen-button" type="button" role="tab" aria-selected="false" aria-controls="projectsScreen" data-screen-target="projects">
+          Projects
+        </button>
+      </div>
+      <p id="lastUpdated" class="sidebar-footer"></p>
+    </div>
+  </header>
+
+  <main class="container site-main">
+    <section id="profileScreen" class="screen" role="tabpanel" aria-labelledby="profileTab">
+      <section class="section about-section" aria-labelledby="aboutTitle">
+        <div class="about-card">
+          <div class="about-copy">
+            <h2 id="aboutTitle">About</h2>
+            <p id="aboutText"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="experienceTitle">
+        <h2 id="experienceTitle">Work Experience</h2>
+        <div id="experienceList" class="resume-list"></div>
+      </section>
+
+      <section class="section" aria-labelledby="educationTitle">
+        <h2 id="educationTitle">Education</h2>
+        <div id="educationList" class="resume-list"></div>
+      </section>
+
+      <section class="section" aria-labelledby="skillsTitle">
+        <h2 id="skillsTitle">Skills</h2>
+        <div id="skillsList" class="skills-grid"></div>
+      </section>
+
+      <section class="section" aria-labelledby="leadershipTitle">
+        <h2 id="leadershipTitle">Leadership</h2>
+        <div id="leadershipList" class="resume-list"></div>
+      </section>
+    </section>
+
+    <section id="projectsScreen" class="screen" role="tabpanel" aria-labelledby="projectsTab" hidden aria-hidden="true">
+      <section class="section" aria-labelledby="projectsTitle">
+        <h2 id="projectsTitle">Projects</h2>
+        <div id="projectsList" class="projects-list"></div>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
