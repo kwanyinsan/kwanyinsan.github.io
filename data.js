@@ -121,6 +121,8 @@ window.portfolioData = {
         "Artificial Intelligence",
         "Machine Learning",
         "Deep Learning",
+        "Multimodal AI",
+        "Structured AI Output",
         "Pattern Recognition",
         "Model Training",
         "Model Evaluation",
@@ -132,6 +134,7 @@ window.portfolioData = {
       group: "Computer Vision & Video Processing",
       items: [
         "Computer Vision",
+        "Image Processing",
         "Object Detection",
         "Object Classification",
         "Object Segmentation",
@@ -199,7 +202,8 @@ window.portfolioData = {
         "LangChain",
         "Hugging Face",
         "OpenGL",
-        "Flutter"
+        "Flutter",
+        "Drift"
       ]
     },
     {
@@ -211,6 +215,9 @@ window.portfolioData = {
         "Web Development",
         "Web Application Development",
         "Mobile Application Development",
+        "Android Application Development",
+        "Local Data Persistence",
+        "Responsive UI Development",
         "Command-Line Application Development",
         "Debugging",
         "Testing",
@@ -224,6 +231,9 @@ window.portfolioData = {
         "GitHub",
         "Linux",
         "Conda",
+        "Firebase AI Logic",
+        "Gemini",
+        "Android SDK",
         "FFmpeg",
         "CUDA",
         "JSON",
