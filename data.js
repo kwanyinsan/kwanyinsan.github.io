@@ -38,8 +38,8 @@ window.portfolioData = {
     {
       role: "Freelance Software Engineer",
       organization: "Self-employed",
-      date: "Jan 2026 - Present",
-      sortDate: "9999-12",
+      date: "Jan 2026 - Aug 2026",
+      sortDate: "2026-08",
       bullets: [
         "Developed a computer vision auto-framing pipeline for sports highlight videos with object detection, player tracking, movement analysis, and automated cropping for stable social-media-ready clip generation.",
         "Built a Player Album system for sports highlight videos with segmentation, multi-object tracking, person re-identification embeddings, clustering, conflict validation, and identity validation for recurring player grouping across clips.",
