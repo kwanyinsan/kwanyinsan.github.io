@@ -281,20 +281,12 @@ window.portfolioData = {
 
   projects: [
     {
-      name: "Gymeter AI",
-      shortDescription: "A Flutter fitness nutrition app that estimates meal macros from photos and text descriptions.",
-      details: "The app uses AI to estimate protein, carbohydrates, and energy, lets users review and edit meal results before saving, and tracks daily intake against training, rest, and deload day targets. Daily summaries, targets, profile details, training routines, preferences, and presets are stored locally.",
-      topics: ["Flutter", "Fitness Nutrition", "AI Meal Analysis", "Firebase AI Logic", "Gemini", "Drift", "Android"],
-      github: "https://github.com/kwanyinsan/gymeter-ai",
-      order: 1
-    },
-    {
       name: "Text Insight RAG",
       shortDescription: "A local command-line project for reading, searching, and analyzing private text files.",
       details: "The project cleans and chunks local text files, builds a local semantic search index, retrieves relevant passages, generates English answers and analysis reports, and saves query or analysis outputs.",
       topics: ["Local Text Analysis", "Semantic Search", "Sentiment Analysis", "Text Chunking", "LangChain", "Hugging Face", "Ollama"],
       github: "https://github.com/kwanyinsan/text-insight-rag",
-      order: 2
+      order: 1
     },
     {
       name: "Player Album",
@@ -302,7 +294,7 @@ window.portfolioData = {
       details: "The pipeline creates local player tracks, saves player crops, extracts person re-identification embeddings, clusters matching identities across videos, and exports player album folders, JSON indexes, debug videos, and verification galleries.",
       topics: ["Computer Vision", "Video Processing", "Segmentation", "Multi-Object Tracking", "Person Re-Identification", "Clustering", "YOLOE", "Torchreid"],
       github: "https://github.com/kwanyinsan/player-album",
-      order: 3
+      order: 2
     },
     {
       name: "Sports Auto-Framing Pipeline",
@@ -310,7 +302,7 @@ window.portfolioData = {
       details: "The pipeline combines court detection, object detection, ball tracking, player identity processing, crop-path generation, and video rendering to create fixed landscape outputs and vertical reels-style outputs from raw court footage.",
       topics: ["Computer Vision", "Video Processing", "Object Detection", "Ball Tracking", "Auto-Framing", "Crop Generation", "OpenCV", "YOLO", "FFmpeg"],
       github: "https://github.com/kwanyinsan/sports-auto-framing",
-      order: 4
+      order: 3
     },
     {
       name: "MMDetectionMonoCD",
@@ -318,7 +310,7 @@ window.portfolioData = {
       details: "The project integrates MonoCD depth and 3D cues with a self-trained MMDetection 2D car detector, then combines 2D boxes, depth maps, and KITTI camera calibration through a late-fusion post-processing pipeline to estimate 3D boxes.",
       topics: ["Monocular 3D Object Detection", "Depth Estimation", "2D Object Detection", "MMDetection", "MonoCD", "KITTI Dataset", "Camera Calibration"],
       github: "https://github.com/kwanyinsan/MMDetectionMonoCD",
-      order: 5
+      order: 4
     }
   ]
 };
